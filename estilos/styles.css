@@ -3,11 +3,16 @@
 @import url(index.css);
 @import url(login.css);
 @import url(register.css);
+@import url(avisos.css);
 
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: 0px;
+}
+
+a{
+    text-decoration: none;
 }
 
 :root{
@@ -102,7 +107,7 @@ body {
     color: white;
 }
 
-.btn_registro{
+.btn_registro, .btn_login{
     font-family: var(--fuente);
     font-size: var(--parrafos);
     font-weight: 600;
@@ -116,19 +121,9 @@ body {
     transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-.btn_login{
-    font-family: var(--fuente);
-    font-size: var(--parrafos);
-    font-weight: 600;
-    background-color: var(--terciario);
+.nav-btns{
     color: white;
-    border: var(--border);  
-    padding: var(--padding);
-    cursor: pointer;
-    border-radius: var(--border-radius);
-    margin-right: 10px;
-    margin-right: 5.5rem;
-    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    margin-right: 20px;
 }
 
 .nav-btns button:hover {

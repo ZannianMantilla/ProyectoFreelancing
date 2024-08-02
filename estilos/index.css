@@ -275,8 +275,9 @@
 
 .footer_index {
   background-color: var(--primario);
-  padding: 30px;
+  padding: 50px;
   color: white;
+  border: none;
 }
 
 .container_footer {
@@ -318,17 +319,31 @@
   padding: 0;
 }
 
-.footer_pestañas ul li, a {
+.footer_pestañas ul li, .indice {
+  font-family: var(--fuente);
+  font-size: var(--parrafos);
   margin: var(--margin) 0;
   text-decoration: none;
   color: white;
   transition: color 0.3s ease-in-out;
 }
 
-.footer_pestañas ul li, a:hover {
+.footer_pestañas ul li, .indice:hover {
   margin: var(--margin) 0;
   color: white;
   color: var(--cuaternario);
 }
 
 
+.copy_footer{
+  padding: 50px;
+  background: var(--secundario);
+  text-align: center;
+}
+
+.span_footer{
+  color: var(--cuaternario);
+  font-size: var(--parrafos);
+  font-weight: 600;
+  margin-left: 5px
+}
